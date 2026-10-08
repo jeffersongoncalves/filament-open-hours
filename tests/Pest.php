@@ -1,3 +1,5 @@
 <?php
 
-uses(JeffersonGoncalves\Filament\OpenHours\Tests\TestCase::class)->in('Feature');
+use JeffersonGoncalves\Filament\OpenHours\Tests\TestCase;
+
+uses(TestCase::class)->in(__DIR__);

@@ -11,8 +11,6 @@ class OpenHoursServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('filament-open-hours')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigrations();
+            ->hasTranslations();
     }
 }
